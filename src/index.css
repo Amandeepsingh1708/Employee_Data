@@ -1,0 +1,239 @@
+*{
+  margin: 0px;
+  padding:0px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  background-color: skyblue
+  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #db8b12;
+  border-radius: 8px;
+  padding: 32px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);  
+}
+
+h2 {
+  margin-bottom: 16px;
+}
+.main_login input{
+    margin-left:20px
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 230px;
+}
+
+button {
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  background-color: #12d339;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  width: 100px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0066aa;
+}
+
+/*=========================================================================Dashboard=====================================================================*/
+.Dashboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #ccc;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration:underline;
+}
+.Dashboard1{
+  background-color: #3498db;
+}
+.btn{
+  width: 200px;
+  margin-left: 10px;
+  margin-bottom: 18px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 15px;
+  padding: 10px;
+}
+/*========================================================================Navbar============================================================================*/
+.Navbar {
+  background-color: #3498db;
+  height: 60px;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+
+li {
+  margin-left: 20px;
+}
+
+Link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+Link:hover {
+  text-decoration: underline;
+}
+.Navbar {
+  background-color: #3498db;
+  height: 60px;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+}
+
+li {
+  margin-left: 20px;
+}
+
+Link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+Link:hover {
+  text-decoration: underline;
+}
+/*===================================================================EmployeeLIst===========================================================================*/
+.EmployeeList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  /* height: 658px; */
+
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+ /* input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+} */
+table{
+  margin: auto;
+  background-color: aliceblue;
+  width: 750px;
+  border-radius: 20px;
+  /* padding: 10px; */
+  margin-left:10px;
+  margin-top: 10px;
+  margin-right: 8px;
+}
+.main_employee{
+  height: 710px;
+  width: 500px;
+}
+th, td{
+  text-align: center;
+  padding: 10px;
+}
+h2{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: #ccc;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration:underline;
+}
+/*============================================================================================================================================================*/
+.nav{
+  background-color: black;
+  height: 50px;
+  padding: 0 20px;
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+li{
+  height: 100%;
+}
+a{
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  height: 100%;
+  padding: 0 10px;
+  line-height: 50px;
+  transform: all 0.3s ease;
+}
+a:hover{
+  background-color: #fff;
+  color: #333;
+}
+img{
+  height: 45px;
+  width: 100px;
+  margin-right: auto;
+}
+
+
